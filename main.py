@@ -142,7 +142,7 @@ class MatrixBackground:
 
 def matrix_loading(duration=3):
     matrix = MatrixBackground()
-   ascii_Gilzz = [
+   ascii_gilzz = [
     " ██████╗ ██╗██╗     ███████╗███████╗",
     "██╔════╝ ██║██║     ╚══███╔╝╚══███╔╝",
     "██║  ███╗██║██║       ███╔╝   ███╔╝ ",
