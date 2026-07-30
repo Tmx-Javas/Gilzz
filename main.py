@@ -557,29 +557,31 @@ def menu_navigation():
 def main():
     try:
         is_termux = os.path.exists("/data/data/com.termux/files/usr")
-        
+
         matrix_loading(3)
         clear_screen()
-        
+
         if is_termux:
             print(f"{Fore.GREEN}✓ Mode Termux terdeteksi{Style.RESET_ALL}")
             print(f"{Fore.CYAN}  Gunakan tombol ↑/↓ untuk navigasi{Style.RESET_ALL}")
             print(f"{Fore.CYAN}  ENTER atau → untuk memilih, Q untuk keluar{Style.RESET_ALL}")
             print()
             time.sleep(1)
-        
+
         menu_navigation()
-            
+
     except KeyboardInterrupt:
         print(f"\n\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
         time.sleep(0.5)
         print(f"{Fore.GREEN}✓ Sampai jumpa! 👋{Style.RESET_ALL}")
         sys.exit(0)
     except Exception as e:
-        print(f"\n{Fore.RED}✗ Error: {e}{Style.RESET_ALL} )
+        print(f"\n{Fore.RED}✗ Error: {e}{Style.RESET_ALL}")
         sys.exit(1)
 
+
 if __name__ == "__main__":
+    main() __name__ == "__main__":
     main() Error: {e}{Style.RESET_ALL}")
         sys.exit(1)
 
