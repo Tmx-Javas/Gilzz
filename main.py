@@ -576,7 +576,7 @@ def main():
         print(f"{Fore.GREEN}✓ Sampai jumpa! 👋{Style.RESET_ALL}")
         sys.exit(0)
     except Exception as e:
-        print(f"\n{Fore.RED}✗ Error: {e}{Style.RESET_ALL}")
+        print(f"\n{Fore.RED}✗ Error: {e}{Style.RESET_ALL} )
         sys.exit(1)
 
 if __name__ == "__main__":
